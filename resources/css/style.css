@@ -1,3 +1,7 @@
+.body {
+  margin: 0 auto;
+}
+
 
 .containter {
   display: flex;
@@ -18,7 +22,7 @@
 header {
   background-color: black;
   color: white;
-  font-family: 'Muli', sans-serif;
+  font-family: Helvetica, sans-serif;
   width: 100%;
   margin: 0 auto;
   height: 6.25rem;
@@ -64,7 +68,7 @@ header {
 .arrival-text {
   padding: 10px 40px;
   width: 70%;
-  font-family: 'Muli', sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 .arrival-text p {
@@ -78,7 +82,7 @@ header {
   justify-content: center;
   width: 100%;
   height: 60px;
-  font-family: 'Muli', sans-serif;
+  font-family: Helvetica, sans-serif;
   color: white;
 }
 
@@ -90,20 +94,54 @@ nav span{
 
 
 
+/* selling_items */
+.cage {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-direction: row;
+  margin: 0 auto;
+  width: 60%;
+
+}
+
+.pic-cage {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border: 1px solid red;
+  margin: 0 auto;
+  width: 30%;
+  height: 100%;
+}
+
+.pic-cage span {
+  font-family: Helvetica, sans-serif;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 18px 36px;
+}
+
+.pic-cage img {
+  height: 165px;
+  padding: 36px 36px;
+}
 
 
 
 
+/* FOOTER */
 
+footer {
+  background-color: black;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  text-align: left;
+  padding: 5rem 0 0 16rem;
+  width: 100%;
+  height: 6.25rem;
+}
 
-
-
-
-
-
-
-
-
-
-
-sd
+/* COMBAK:  */
