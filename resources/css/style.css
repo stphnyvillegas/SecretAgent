@@ -80,6 +80,8 @@ header {
 
 }
 
+/* nav */
+
 .menu {
   background-color: firebrick;
   justify-content: center;
@@ -93,6 +95,10 @@ nav span{
   display: flex;
   padding: 0 3rem 0 3rem;
 
+}
+
+.navigation-1024 {
+  display: none;
 }
 
 
@@ -182,8 +188,45 @@ footer {
 }
 
 .foot {
-
   padding-left: 15rem;
 }
 
 /* MEDIA QUERIES  */
+
+@media only screen and (max-width: 1024px) {
+
+  .cage {
+    border: 1px solid green;
+    width: 100%;
+  }
+
+  .pic-cage {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 0.25rem solid black;
+    margin: 0 auto;
+    width: 30%;
+    height: 100%;
+  }
+
+  .glasses {
+    display: none;
+  }
+
+  .navigation-1024 {
+    display: inherit;
+  }
+
+  .navigation {
+    display: none;
+  }
+
+  .contact {
+    width: 30%;
+  }
+
+  .info {
+    width: 81%;
+
+}
