@@ -211,13 +211,11 @@ footer {
     margin-right: 50px;
     width: 70%;
     font-family: Helvetica, sans-serif;
-
   }
 
   .arrival-text p {
     font-size: 2rem;
     padding-top: 2rem;
-
   }
 
 
@@ -271,12 +269,40 @@ footer {
     margin-right: 50px;
     width: 70%;
     font-family: Helvetica, sans-serif;
-
   }
 
   .arrival-text p {
     font-size: 1.65rem;
     padding-top: 1rem;
-
   }
-}
+
+  .logo-text {
+    display: none;
+  }
+
+
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    height: 5rem;
+  }
+
+  #main {
+    padding-left: 1rem;
+  }
+
+   /***** SCREEN AT 480PX *****/
+
+
+
+   @media only screen and (max-width: 480px) {
+
+
+
+
+   }
