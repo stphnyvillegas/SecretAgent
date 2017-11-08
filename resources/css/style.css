@@ -21,6 +21,8 @@
 /* HEADER */
 
 header {
+  display: flex;
+  justify-content: flex-start;
   background-color: black;
   color: white;
   font-family: Helvetica, sans-serif;
@@ -30,8 +32,7 @@ header {
 }
 
 #main {
-  padding-left: 16rem;
-  padding-top: 1.6rem;
+  padding-left: 15rem;
 }
 
 .containter-items .logo {
@@ -193,10 +194,34 @@ footer {
 
 /* MEDIA QUERIES  */
 
+    /***** SCREEN AT 1024PX *****/
+
 @media only screen and (max-width: 1024px) {
+  .new-arrival {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 35%;
+    height: 200px;
+  }
+
+  .arrival-text {
+    padding: 10px 10px;
+    margin-right: 50px;
+    width: 70%;
+    font-family: Helvetica, sans-serif;
+
+  }
+
+  .arrival-text p {
+    font-size: 2rem;
+    padding-top: 2rem;
+
+  }
+
 
   .cage {
-    border: 1px solid green;
     width: 100%;
   }
 
@@ -210,7 +235,8 @@ footer {
     height: 100%;
   }
 
-  .glasses {
+  .glasses ,
+    .navigation {
     display: none;
   }
 
@@ -218,15 +244,39 @@ footer {
     display: inherit;
   }
 
-  .navigation {
-    display: none;
-  }
-
   .contact {
-    width: 30%;
+    width: 38%;
   }
 
   .info {
     width: 81%;
+  }
+}
 
+
+   /***** SCREEN AT 768PX *****/
+
+@media only screen and (max-width: 768px) {
+  .new-arrival {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 50%;
+    height: 130px;
+  }
+
+  .arrival-text {
+    padding: 5px 5px;
+    margin-right: 50px;
+    width: 70%;
+    font-family: Helvetica, sans-serif;
+
+  }
+
+  .arrival-text p {
+    font-size: 1.65rem;
+    padding-top: 1rem;
+
+  }
 }
