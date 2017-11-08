@@ -7,6 +7,7 @@
   display: flex;
   flex-direction:row;
   align-items: center;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -66,9 +67,11 @@ header {
 }
 
 .arrival-text {
-  padding: 10px 40px;
+  padding: 10px 10px;
+  margin-right: 50px;
   width: 70%;
   font-family: Helvetica, sans-serif;
+
 }
 
 .arrival-text p {
@@ -96,13 +99,14 @@ nav span{
 
 /* selling_items */
 .cage {
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
   align-self: center;
   flex-direction: row;
   margin: 0 auto;
   width: 60%;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 
 }
 
@@ -110,7 +114,7 @@ nav span{
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  border: 1px solid red;
+  border: 0.25rem solid black;
   margin: 0 auto;
   width: 30%;
   height: 100%;
@@ -126,22 +130,60 @@ nav span{
 
 .pic-cage img {
   height: 165px;
-  padding: 36px 36px;
+  padding: 32px 36px;
 }
 
+/* CONTACT */
+.location-hours {
+  padding-bottom: 3rem;
+}
+
+.info {
+  margin: 0 auto;
+  width: 59%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  font-family: Helvetica, sans-serif;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+}
+
+.location ,
+  .hours {
+  background: black;
+  color: white;
+  padding: 16px 20px;
+}
+
+#correlation ,
+ #time {
+  font-size: 1rem;
+  padding-left: 9px;
+}
 
 
 
 /* FOOTER */
 
 footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background-color: black;
   color: white;
   font-family: Helvetica, sans-serif;
   text-align: left;
-  padding: 5rem 0 0 16rem;
   width: 100%;
   height: 6.25rem;
 }
 
-/* COMBAK:  */
+.foot {
+
+  padding-left: 15rem;
+}
+
+/* MEDIA QUERIES  */
